@@ -2,11 +2,10 @@ import { Globe } from "lucide-react";
 import { Container } from "../../components/Container";
 
 import banda from "./../../../public/img/banda.jpg";
-import fundo from "./../../../public/img/fundo.jpg";
 
 export const Cover = () => {
   return (
-    <Container>
+    <Container className="min-h-screen">
       <div className="flex flex-col gap-4">
         <Globe size={40} color="white" />
         <h1 className="text-3xl md:text-7xl  text-white">
