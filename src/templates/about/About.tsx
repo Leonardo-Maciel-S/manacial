@@ -11,7 +11,7 @@ export const About = () => {
           className="object-fill absolute h-screen opacity-20 "
         />
 
-        <p className="z-10 text-white text-4xl text-center max-w-[900px] font-normal leading-12">
+        <p className="z-10 px-6 text-lg text-white md:text-4xl text-center max-w-[900px] font-normal leading-12">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio
           officia, rem obcaecati possimus odio consectetur quia itaque odit
           voluptate error recusandae atque culpa impedit vero quis eaque ex?

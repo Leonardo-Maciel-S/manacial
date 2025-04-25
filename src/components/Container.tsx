@@ -5,16 +5,16 @@ const container = tv({
   base: "container grid justify-center items-center ",
   variants: {
     columns: {
-      1: "md:grid-cols-1",
-      2: "md:grid-cols-2",
-      3: "md:grid-cols-3",
-      4: "md:grid-cols-4",
+      1: "lg:grid-cols-1",
+      2: "lg:grid-cols-2",
+      3: "lg:grid-cols-3",
+      4: "lg:grid-cols-4",
     },
     rows: {
-      1: "md:grid-rows-1",
-      2: "md:grid-rows-2",
-      3: "md:grid-rows-3",
-      4: "md:grid-rows-4",
+      1: "lg:grid-rows-1",
+      2: "lg:grid-rows-2",
+      3: "lg:grid-rows-3",
+      4: "lg:grid-rows-4",
     },
   },
   defaultVariants: {
