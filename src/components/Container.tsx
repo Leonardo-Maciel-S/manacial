@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 import { tv } from "tailwind-variants";
 
 const container = tv({
-  base: "container grid justify-center items-center ",
+  base: "container grid lg:justify-center lg:items-center gap-40",
   variants: {
     columns: {
       1: "lg:grid-cols-1",

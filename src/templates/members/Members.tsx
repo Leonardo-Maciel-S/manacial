@@ -61,7 +61,7 @@ export const Members = () => {
   return (
     <Container className="min-h-screen" columns={1}>
       <div className="space-y-20 py-22 px-10">
-        <h2 className="text-center text-7xl text-white">Membros</h2>
+        <h2 className="text-center text-5xl md:text-7xl text-white">Membros</h2>
 
         <div className="flex flex-wrap gap-20 justify-center items-center">
           {members.map((member) => (
