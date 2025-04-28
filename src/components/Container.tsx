@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 import { tv } from "tailwind-variants";
 
 const container = tv({
-  base: "container grid lg:justify-center lg:items-center gap-40",
+  base: "container grid lg:justify-center lg:items-center",
   variants: {
     columns: {
       1: "lg:grid-cols-1",
@@ -24,7 +24,7 @@ const container = tv({
 });
 
 interface ContainerProps {
-  children: ReactNode;
+  children?: ReactNode;
   className?: string;
   columns?: 1 | 2 | 3 | 4;
   rows?: 1 | 2 | 3 | 4;
@@ -37,7 +37,7 @@ export const Container = ({
   rows,
 }: ContainerProps) => {
   return (
-    <div className="bg-gradient-to-tl from-black to-50% to-[#242222] w-full flex justify-center items-center">
+    <div className="bg-gradient-to-l from-black to-80% to-[#242222] w-full flex justify-center items-center">
       <div className={container({ className, columns, rows })}>{children}</div>
     </div>
   );

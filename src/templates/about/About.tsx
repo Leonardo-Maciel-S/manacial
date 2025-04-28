@@ -8,17 +8,16 @@ export const About = () => {
         <img
           src={fundo}
           alt=""
-          className="object-fill absolute h-screen opacity-20 "
+          className="object-cover absolute h-screen opacity-10 "
         />
 
-        <p className="z-10 px-6 text-lg text-white md:text-4xl text-center max-w-[900px] font-normal leading-12">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio
-          officia, rem obcaecati possimus odio consectetur quia itaque odit
-          voluptate error recusandae atque culpa impedit vero quis eaque ex?
-          Laudantium, eaque. Lorem ipsum, dolor sit amet consectetur adipisicing
-          elit. Quos eaque odit quisquam placeat quam pariatur, mollitia
-          temporibus consectetur nisi! Iure eveniet commodi hic doloribus
-          excepturi odio quia tenetur! Rerum, harum.
+        <p className="z-10 px-5 md:px-20 text-lg text-zinc-50 md:text-4xl text-center max-w-[900px] font-light leading-14 italic">
+          Grupo de louvor da{" "}
+          <strong className="font-bold">Igreja Batista Gileade</strong>{" "}
+          comandada atualmente pelo baterista{" "}
+          <strong className="font-bold">Vinícius Henrique</strong>, esse grupo
+          possui anos de existência cantando fielmente todo domingo nos cultos
+          de celabração desde 2018.
         </p>
       </div>
     </Container>
