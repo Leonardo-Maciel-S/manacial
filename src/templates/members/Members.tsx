@@ -15,7 +15,7 @@ export const Members = () => {
     },
     {
       srcImg: baterista,
-      name: "Tamires Miranda",
+      name: "Tamyres Miranda",
       role: "Vocal",
       icon: MicVocal,
     },
