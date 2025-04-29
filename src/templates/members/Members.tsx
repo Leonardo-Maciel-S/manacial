@@ -1,60 +1,55 @@
 import { Container } from "../../components/Container";
 import { Card } from "./components/Card";
 
-import baterista from "./../../../public/img/baterista.png";
 import { IMembers } from "../../@types/Members";
-import { Drum, Guitar, KeyboardMusic, MicVocal } from "lucide-react";
+import { Drum, Guitar, MicVocal } from "lucide-react";
+
+import vinicius from "./../../../public/img/members/vinicius.png";
+import geazi from "./../../../public/img/members/geazi.png";
+import lyedson from "./../../../public/img/members/lyedson.png";
+import marcia from "./../../../public/img/members/marcia.png";
+import talisson from "./../../../public/img/members/talisson.png";
+import tamyres from "./../../../public/img/members/tamyres.png";
 
 export const Members = () => {
   const members: IMembers[] = [
     {
-      srcImg: baterista,
       name: "Vinícius Henrique",
       role: "Bateria",
       icon: Drum,
+      image: vinicius,
     },
     {
-      srcImg: baterista,
       name: "Tamyres Miranda",
       role: "Vocal",
       icon: MicVocal,
+      image: tamyres,
     },
     {
-      srcImg: baterista,
       name: "Talisson",
       role: "Vocal",
       icon: MicVocal,
+      image: talisson,
     },
     {
-      srcImg: baterista,
       name: "Marcia",
       role: "Vocal",
       icon: MicVocal,
-    },
-    {
-      srcImg: baterista,
-      name: "Jessé Trindade",
-      role: "Vocal",
-      icon: MicVocal,
-    },
-    {
-      srcImg: baterista,
-      name: "Geazi",
-      role: "Guitarra",
-      icon: Guitar,
-    },
-    {
-      srcImg: baterista,
-      name: "Flávio",
-      role: "Teclado",
-      icon: KeyboardMusic,
+      image: marcia,
     },
 
     {
-      srcImg: baterista,
-      name: "Hélio",
+      name: "Geazi",
+      role: "Guitarra",
+      icon: Guitar,
+      image: geazi,
+    },
+
+    {
+      name: "Lyedson",
       role: "Baixo",
       icon: Guitar,
+      image: lyedson,
     },
   ];
 

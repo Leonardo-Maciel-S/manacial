@@ -8,9 +8,9 @@ interface CardProps {
 
 export const Card = ({ member, icon: Icon }: CardProps) => {
   return (
-    <div className="group max-w-56 md:max-w-64 rounded-lg overflow-hidden text-center space-y-2 pb-3 bg-gradient-to-bl to-[#adadad] from-[#797878] hover:scale-105 transition-all duration-150 hover:bg-gray-400 cursor-pointer">
-      <div className="">
-        <img src={member.srcImg} alt="" className="" />
+    <div className="group max-w-56 md:max-w-64 max-h-96 rounded-lg overflow-hidden text-center space-y-2 pb-3 bg-white hover:scale-105 transition-all duration-150 hover:bg-gray-400 cursor-pointer border-5 border-white">
+      <div className="overflow-hidden max-h-[400px] rounded-md">
+        <img src={member.image} alt="" className="object-cover h-ful" />
       </div>
 
       <div className="space-y-2 text-black p-2 group-hover:text-white">

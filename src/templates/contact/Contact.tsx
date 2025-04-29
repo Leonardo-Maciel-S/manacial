@@ -13,25 +13,22 @@ export const Contact = () => {
         <ul className="text-xl flex flex-col gap-3 pt-10">
           <li className="flex gap-2">
             <Mail size={30} />
-            <div>
-              <span>Email: </span>
-              <span>email@gmail.com</span>
-            </div>
+            <span>email@gmail.com</span>
           </li>
           <li className="flex gap-2">
             <FaWhatsapp size={30} />
-            <div>
-              <span>Whatsapp: </span>
-              <span>61 99999-9999</span>
-            </div>
+            <span>61 99999-9999</span>
           </li>
 
           <li className="flex gap-2">
             <Instagram size={30} />
-            <div>
-              <span>Instagram: </span>
-              <span>@manancial</span>
-            </div>
+            <a
+              href="https://www.instagram.com/manancialdeadoracao_oficial/#"
+              target="_blank"
+              rel="noreferrer"
+            >
+              @manancialdeadoração_oficial
+            </a>
           </li>
         </ul>
       </div>
